@@ -2,6 +2,7 @@
 
 cd backend 
 yarn 
+yarn build
 yarn start:pm2
 
 cd ../frontend 
