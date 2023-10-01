@@ -18,7 +18,7 @@ export class LogController {
 
   GET: RequestHandler = async (req, res, next) => {
     try {
-      let file = req.params["file-name"];
+      let file = req.params["file"];
       let searchTerm = req.query.term as string;
       let n = parseInt(req.query["number-of-entries"] as string);
       res.status(200).send({
