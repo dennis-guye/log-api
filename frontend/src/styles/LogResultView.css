@@ -1,0 +1,11 @@
+.ResultView {
+    width: auto;
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: left;
+}
+
+.Row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
