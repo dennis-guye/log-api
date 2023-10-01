@@ -21,7 +21,7 @@ export class LogController {
       let file = req.params["file-name"];
       let searchTerm = req.query.term as string;
       let n = parseInt(req.query["number-of-entries"] as string);
-      res.send({
+      res.status(200).send({
         message: "OK",
         code: 200,
         data: await this.service.tail({ file, searchTerm, n }),
